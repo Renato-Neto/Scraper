@@ -1,0 +1,114 @@
+/* Paleta de Cores */
+:root {
+  --mountbatten-pink: #a17596;
+  /* Rosa principal */
+  --licorice: #120a15;
+  /* Preto profundo */
+  --mountbatten-pink-alt: #a07494;
+  /* Rosa alternativo */
+  --desert-sand: #d8bcac;
+  /* Bege claro */
+}
+
+/* Fundo principal */
+body {
+  background-color: var(--desert-sand) !important;
+  /* Bege claro */
+  color: var(--licorice);
+  /* Texto preto profundo */
+}
+
+/* Fundo da aplicação */
+.stApp {
+  background-color: var(--desert-sand) !important;
+  /* Bege claro */
+}
+
+/* Barra superior do Streamlit */
+header {
+  background-color: var(--mountbatten-pink) !important;
+  color: var(--licorice) !important;
+}
+
+/* Barra lateral */
+.stSidebar {
+  background-color: var(--mountbatten-pink-alt) !important;
+  /* Rosa alternativo */
+  color: var(--licorice);
+  /* Texto preto profundo */
+}
+
+/* Título da barra lateral */
+.stSidebar h2 {
+  color: var(--licorice) !important;
+}
+
+/* Fundo das caixas de entrada */
+.stTextInput,
+.stFileUploader,
+.stTextArea {
+  background-color: var(--desert-sand) !important;
+  /* Bege claro */
+  color: var(--licorice) !important;
+  /* Texto preto profundo */
+  border: 1px solid var(--mountbatten-pink-alt);
+  /* Rosa alternativo */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+}
+
+/* Botões */
+.stButton>button {
+  background-color: var(--licorice) !important;
+  /* Fundo preto profundo */
+  color: var(--desert-sand) !important;
+  /* Texto bege claro */
+  border-radius: 8px;
+  /* Bordas arredondadas */
+  border: 1px solid var(--mountbatten-pink) !important;
+  /* Bordas rosa principal */
+}
+
+.stButton>button:hover {
+  background-color: var(--mountbatten-pink) !important;
+  /* Hover rosa principal */
+  color: var(--licorice) !important;
+  /* Texto preto profundo */
+}
+
+/* Botões de download */
+.stDownloadButton>button {
+  background-color: var(--licorice) !important;
+  color: var(--desert-sand) !important;
+  border-radius: 8px;
+  border: 1px solid var(--mountbatten-pink);
+}
+
+.stDownloadButton>button:hover {
+  background-color: var(--mountbatten-pink-alt) !important;
+  color: var(--licorice) !important;
+}
+
+/* Fundo destacado para seções */
+.section-bg {
+  background-color: var(--mountbatten-pink) !important;
+  /* Rosa principal */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Título principal */
+.custom-header h1 {
+  color: var(--licorice) !important;
+  /* Texto preto profundo */
+}
+
+/* Links */
+a {
+  color: var(--licorice) !important;
+}
+
+a:hover {
+  color: var(--mountbatten-pink-alt) !important;
+}
